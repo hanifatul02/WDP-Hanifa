@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "montserrat", sans-serif;
+  color: black;
+  background-color: #f3f1f5;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  margin: 0;
+  padding: 20px;
+  top: 0;
+  overflow: hidden;
+  direction: rtl;
+  font-weight: 600;
+  background-color: orangered;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+span a {
+  padding: 20px;
+}
+
+span a:hover {
+  background: whitesmoke;
+}
+
+.bolded {
+  font-weight: bold;
+}
+
+.profile {
+  margin: 30px;
+  padding: 24px;
+  background-color: white;
+  display: block;
+  overflow: hidden;
+  position: relative;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.profile img {
+  margin: 24px;
+  border-radius: 40%;
+  width: 240px;
+  float: left;
+}
+
+.profile-general {
+  justify-items: center;
+  float: left;
+  margin: 24px 48px 24px 24px;
+}
+
+.profile-general h1 {
+  font-size: 24px;
+}
+
+.profile-button {
+  padding: 14px 24px;
+  background: none;
+  font-weight: 700;
+  transition: 0.4s;
+}
+
+.kontak {
+  margin: 20px 20px 10px 0px;
+  color: white;
+  background: #24a0ed;
+}
+
+.resume {
+  color: #4caf50;
+  border: 2px solid #4caf50;
+}
+
+.submit-btn {
+  width: 100%;
+  color: white;
+  background: #4caf50;
+  border: thin;
+  border-radius: 2px;
+}
+
+button:hover {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+button:active {
+  filter: brightness(0.85);
+  transform: translateY(4px);
+}
+
+.profile-detail {
+  margin: 24px 48px;
+  float: left;
+}
+
+.form-width {
+  padding: 0;
+}
+
+label {
+  font-weight: 700;
+}
+
+input {
+  width: 99%;
+  height: 15px;
+  margin: 4px 0 18px 0;
+  border-radius: 10px;
+  border-style: groove;
+}
+
