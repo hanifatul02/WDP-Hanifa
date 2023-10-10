@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Assignment 3</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>COVID-19 TRACKER</h1>
+        <input type="text" class="inputElement" placeholder="Enter Country">
+        <button class="btn">Get Data</button>
+        <br>
+        <div id="container">
+            <div class="activeCard">
+                <img src="img/coronavirus.png" alt="">
+                <h5>Active Cases</h5>
+                <p class="activeCases"></p>
+            </div>
+            <div class="newCard">
+                <img src="img/newcases.png" alt="">
+                <h5>New Cases</h5>
+                <p class="newCases"></p>
+
+            </div>
+            <div class="recoveredCard">
+                <img src="img/recovery.png" alt="">
+                <h5>Recovery Clase</h5>
+                <p class="recoveredCases"></p>
+            </div>
+        </div>
+        <div id="container">
+            <div class="totalCard">
+                <img src="img/totalcases.png" alt="">
+                <h5>Total Cases</h5>
+                <p class="totalCases"></p>
+            </div>
+            <div class="deathCard">
+                <img src="img/death.png" alt="">
+                <h5>Total Death</h5>
+                <p class="totalDeaths"></p>
+            </div>
+            <div class="testCard">
+                <img src="img/totaltest.png" alt="">
+                <h5>Total Test</h5>
+                <p class="totalTests"></p>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
