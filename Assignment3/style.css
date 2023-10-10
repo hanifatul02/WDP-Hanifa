@@ -1,0 +1,113 @@
+body {
+    text-align: center;
+    align-items: center;
+    /* background-color: #FFFFD2; */
+    background-color:#DEB887;
+    font-family: 'Lato', sans-serif;
+}
+h1{
+    color: #ffff;
+}
+.btn {
+    margin-top: 15px;
+    padding: 15px 30px 15px 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: #778899;
+    cursor: pointer;
+    font-size: 20PX;
+    color: white;
+    margin-left: 20px;
+    
+}
+
+input {
+    padding: 15px 40px 15px 40px;
+    border-radius: 10px;
+    box-shadow: inset 2px 2px 2px #cbced1, inset -12px -12px 12px white;
+    border: none;
+    text-align: center;
+    font-size: 20px;
+}
+
+.container {
+    width: fit-content;
+    margin: auto;
+    padding: 20px 50px 20px 50px;
+    margin-top: 80px;
+    border-radius: 32px;
+    background:  #F4A460;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding-top: 25px;
+    margin: 5px;
+}
+
+#container>div {
+    width: 200px;
+    height: 200px;
+}
+
+img{
+  padding-top: 20px;
+  width: 30%;
+
+}
+.activeCard {
+    padding: 10px;
+    background-color: #cec8ef;
+    color: white;
+    font-size: 1.5rem;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.newCard {
+   padding: 10px;
+    background-color: #ff85a2;
+    color: white;
+    font-size: 1.5rem;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.recoveredCard {
+    padding: 10px;
+    background-color: #d291bc;
+    color: white;
+    font-size: 1.5rem;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.totalCard { 
+    padding: 10px;
+    background-color: #957dad;
+    color: white;
+    font-size: 1.5rem;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.deathCard {
+    padding: 10px;
+    background-color: #AA96DA;
+    color: white;
+    font-size: 1.5rem;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.testCard {
+    padding: 10px;
+    background-color: #BC8F8F ;
+    color: white;
+    font-size: 1.5rem;
+    margin: 5px;
+    border-radius: 10px;
+}
