@@ -8,3 +8,7 @@ Implementasi Bootstrap untuk sebuah Homepage Website
 Assignment 2:
 Membuat fungsi dengan javascript
 - Melakukan perubahan data pada section form dimana setelah selesai disubmit akan mengganti semua deskripsi pada section profile dengan menggunakan script javascript.
+
+Assignment 3:
+Penggunaan Javascript dan Fetch
+- Menampilkan Data Realtime COVID-19 Menggunakan Javascript dengan Menggunakan Fetch 
